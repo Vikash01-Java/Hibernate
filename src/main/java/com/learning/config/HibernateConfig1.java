@@ -13,17 +13,10 @@ import org.hibernate.cfg.Environment;
 
 
 public class HibernateConfig1 {
-	
 
-
-	
-
-	public static SessionFactory getSessionFactory()
-	{
+	public static SessionFactory getSessionFactory(){
 		
-		
-		
-Properties ps = new Properties();
+         Properties ps = new Properties();
 		
 		
 		ps.put(Environment.DIALECT, "org.hibernate.dialect.MySQLDialect");

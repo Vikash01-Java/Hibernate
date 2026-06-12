@@ -11,7 +11,7 @@ import org.hibernate.cfg.Environment;
 public class HibernateConfig {
 	
 	public static SessionFactory getSessionFactory()
-	{
+	{  
 		Properties ps = new Properties();
 		
 		ps.put(Environment.DIALECT, "org.hibernate.dialect.MySQLDialect");
